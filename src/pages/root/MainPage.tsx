@@ -2,9 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import HomePage from '../sub/HomePage';
 
-type Props = {};
-
-const MainPage = (props: Props) => {
+const MainPage = () => {
   return (
     <div>
       <Sidebar />

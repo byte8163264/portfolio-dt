@@ -1,8 +1,3 @@
-
-type Props = {}
-
-export default function Sidebar({}: Props) {
-  return (
-    <div>Sidebar</div>
-  )
+export default function Sidebar() {
+  return <div>Sidebar</div>;
 }
